@@ -1,4 +1,4 @@
-# omeka-plugin-ItemPartialShortcode
+# omeka-plugin-ItemsPartialShortcode
 
 This plugin extends the item shortcode to enable a new operator 'template' to specify a partial template other than 'single.php' in your theme to display the list of items.
 

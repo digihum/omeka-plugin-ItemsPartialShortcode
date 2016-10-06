@@ -1,14 +1,14 @@
 <?php     
-class FullItemShortcodePlugin extends Omeka_Plugin_AbstractPlugin {
+class ItemsPartialShortcodePlugin extends Omeka_Plugin_AbstractPlugin {
 
     protected $_hooks = array('initialize');
 
       public function hookInitialize()
     {
-        add_shortcode('fullitems', array($this, 'shortcodeFullItems'));
+        add_shortcode('itemspartial', array($this, 'shortcodeItemsPartial'));
     }
 
-    public function shortcodeFullItems($args, $view)
+    public function shortcodeItemsPartial($args, $view)
     {
         $params = array();
 
